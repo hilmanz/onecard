@@ -28,8 +28,14 @@
 		<script type="text/javascript" src="assets/vendor/modernizr.js"></script>
     </head>
     <body>
-    	<?php  include("header.php"); ?>
-        <?php  include("home.php"); ?>
+        <?php 
+        if($_GET['page']=='home'){
+            include("home.php");
+        }else if($_GET['page']=='home2'){ 
+            include("home2.php");
+        }else{ 
+            include("home.php");
+        }?>
     	<?php  include("footer.php"); ?>
         <script src="assets/vendor/waypoints.min.js"></script>
 		<script src="assets/vendor/wowanimate/wow.js"></script>

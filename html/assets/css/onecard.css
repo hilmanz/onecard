@@ -201,14 +201,16 @@ body{
 }
 .howtoimg h4{
 	margin: 10px 0;
-	border-bottom: solid 2px #fff003;
 	display: inline-block;
+}
+.howtoimg h4 img{
+	max-width: 51px;
 }
 .second .howtoimg{
 	border-left: solid 1px #556386;
 	border-right: solid 1px #556386;
 }
-.first img{
+.first .howtoimg img{
 	right: -10px;
 }
 .boxbutton{
